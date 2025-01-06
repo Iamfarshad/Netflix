@@ -5,7 +5,7 @@ import { MdOutlineLiveTv } from "react-icons/md";
 const Header = () => {
   return (
     <nav className="w-full h-full bg-black text-black text-2xl items-center flex gap-5 justify-between">
-      <div className="w-1/2 h-full flex justify-center items-center">
+      <div className="w-4/5 h-full flex justify-center items-center">
   <div className="w-full h-full flex gap-4 p-3">
 
     <div className="h-full w-44 justify-center items-center flex phone:w-36">
@@ -50,8 +50,8 @@ const Header = () => {
 </div>
 
 
-      <div className="w-1/2 h-full flex">
-        <div className="w-full h-full flex gap-4 p-3 justify-around lappy:justify-end lappy:gap-3">
+      <div className="w-1/5 h-full flex">
+        <div className="w-full h-full flex gap-4 p-3 justify-around  lappy:justify-end lappy:gap-3">
           <div className="w-full h-full flex items-center justify-around lappy:justify-end gap-2">
             <div className="text-white flex justify-center items-center phone:hidden">
               <IoIosAddCircleOutline className="text-3xl cursor-pointer hover:text-red-800" />

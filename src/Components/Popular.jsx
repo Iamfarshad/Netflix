@@ -24,12 +24,11 @@ const Popular = () => {
     <div className="flex gap-4">
   {popularMovies.map((movie) => (
     <div key={movie.id} className="w-48 h-64 flex-shrink-0 ">
-      {/* Movie Poster */}
       <div className="w-full h-full ">
         <img
           className="w-full h-full object-cover rounded-lg"
-          src={`${image_Url}${movie.poster_path}`} // Use movie.poster_path dynamically
-          alt={movie.title} // Use movie.title for accessibility
+          src={`${image_Url}${movie.poster_path}`} 
+          alt={movie.title} 
         />
       </div>
     </div>

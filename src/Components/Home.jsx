@@ -2,6 +2,9 @@ import { FaPlay } from "react-icons/fa";
 import { IoMdAdd } from "react-icons/io";
 
 const Home = () => {
+
+
+
   return (
     <section className="w-full h-96  ">
         <div className=" w-full h-full ">
